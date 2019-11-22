@@ -1,0 +1,159 @@
+*{margin:0;
+	padding: 0;
+}
+html{scroll-behavior: smooth;}
+body{background-color: #f7b90f;}
+header{
+	position: sticky;
+	left: 0;
+	top:0;
+	z-index: 1;
+} 
+@keyframes movimiento{
+	0%{transform: translateX(2500px);}
+	100%{transform: translateX(0);}
+}
+@keyframes movimiento1{
+	0%{transform: translateX(-2500px);}
+	100%{transform: translateX(0);}
+}
+@keyframes texto{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+.header1{background-color: black !important;}
+.nav{
+	background-color: black !important;
+}
+.boton{
+	background-color: gold, !important;
+}
+.name{
+	color:gold !important;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 35px;
+	transition: 1s;
+	animation-name: movimiento1;
+	animation-duration: 2s;
+}
+.name:hover{
+	color:white !important;
+}
+.nava{
+	color: gold !important;
+	transition-duration: 500ms;
+}
+.nava:hover{
+	color: white !important;
+}
+.caja{
+	text-align: center;
+}
+.caja1{
+	background-color: #f7b90f;
+	overflow: hidden;
+}
+.foto{
+	width: 100%;
+}
+.caja2{
+	text-align: center;
+}
+h2{
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 55px;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+.title{color:gold;}
+.foto1{
+	width: 20%;
+}
+
+#detalle{
+	margin-left: 0;
+	margin-right: 0;
+}
+.slider{
+	height: 150px;
+}
+.poster{
+	width: 100%;
+}
+#scale{
+	transition: 1s;
+}
+#scale:hover{
+	transform: scale(1.2);
+
+}
+.form{ 
+	width: 100%;
+	padding-top: 70px;
+}
+.h2{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 45px;
+}
+.submit{
+	background-color: black;
+	color:gold;
+	border: none;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 25px;
+	transition: 250ms;
+	
+}
+.submit:hover{
+	background-color: white;
+	color: black;
+}
+.footer{
+	margin-top: 2%;
+}
+.p{
+	font-size: 18px;
+}
+h4{font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	font-size: 40px;
+}
+.pe{font-family: 'Kaushan Script', cursive;
+	display: flex;
+	justify-content:center;
+	font-size: 35px; 
+}
+.pex{
+
+	font-family:'Kaushan Script', cursive;;
+	font-size: 30px; 
+}
+h5{
+	color: #f7b90f;
+}
+
+.fotito{
+	animation-name: movimiento;
+	animation-duration: 2s;
+
+}
+.text{
+	animation-name: texto;
+	animation-duration: 2s;
+}
+.titulos{
+	text-align: center;
+	padding-top: 30px;
+	color: black;
+ font-family: 'Fjalla One', sans-serif;
+}
+.fotito1{
+	width: 100%;
+}
+.text2{
+	font-family: 'Kaushan Script', cursive;
+}

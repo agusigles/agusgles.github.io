@@ -1,0 +1,81 @@
+html{font-family: 'DM Serif Text', serif;}
+body{margin:0;padding: 0;
+background-image: url(img/Martin/taxi.jpg) ; background-repeat: no-repeat;
+background-size: cover;
+background-position: 80% 20%; overflow: hidden; position: relative; 	
+}
+@keyframes texto{
+	0%{opacity:0;}
+	100%{opacity: 1;}
+}
+@keyframes texto2{
+	0%{transform: translate(-25px);}
+	100%{transform: translate(0);}
+}
+.error{
+	text-align: center;	
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 48px;
+	animation-name: texto,texto2;
+	animation-duration: 2s;
+}
+.text1{
+	position: absolute;
+	top:75%;
+	left: 38%;
+	text-align: center;
+	color: #FFFFFF;
+	font-style: normal;
+	font-size: 18px;
+	animation-name: texto,texto2;
+	animation-duration: 2s;
+}
+
+.Boton{
+    border: 2.5px solid #ecbe05;
+    background: #ecbe05;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+    top: 175%;
+    border-radius: 10px;
+    color: gray;
+    overflow: hidden;
+    text-align: center;
+    animation-name: texto,texto2;
+    animation-duration: 2s;
+    transition-duration: 1s;
+}
+.Boton:hover{
+	background: black;
+	border: 2.5px solid black;
+	color: white;
+	transform: scale(1.2,1.2);
+}
+
+@keyframes taxi{
+	0%{transform: translate(1500px);}
+	50%{transform: translate(0);}
+	60%{transform: translate(0);}
+	70%{transform: translate(0);}
+	80%{transform: translate(0);}
+	90%{transform: translate(5px);}
+	100%{transform: translate(-1500px);}
+}
+.taxi{
+	width: 60%;
+	position: absolute;
+	top:248%;
+	left:23%;
+	animation-name:taxi;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite; 
+}
+/*.footer{
+	color: #FFFFFF;
+	text-align: center;
+}*/
